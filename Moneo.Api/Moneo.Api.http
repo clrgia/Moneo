@@ -1,6 +1,9 @@
 @Moneo.Api_HostAddress = http://localhost:5046
 
-GET {{Moneo.Api_HostAddress}}/weatherforecast/
+GET {{Moneo.Api_HostAddress}}/api/accounts/
 Accept: application/json
 
 ###
+
+GET {{Moneo.Api_HostAddress}}/api/accounts/db4b4cdd-81c3-4485-b8b5-4cd2dec783a1/operations/
+Accept: application/json
